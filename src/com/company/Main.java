@@ -7,6 +7,7 @@ public class Main {
         createObject("Airplane", 3).print();
         createObject("Train", 2).print();
         createObject("Ship", 4).print();
+        
     }
 
     public static Transport createObject(String className, int classNumber) {

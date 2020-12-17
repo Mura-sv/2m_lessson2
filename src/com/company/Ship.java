@@ -15,7 +15,8 @@ public class Ship extends Transport   {
     }
 
     public void print() {
-        System.out.println("Name:"+getName()+" Type:"+getType()+" Ship type:"+ getShipType());
+        super.print();
+        System.out.print(" Ship type:"+ getShipType());
 
     }
 

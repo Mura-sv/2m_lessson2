@@ -28,6 +28,6 @@ public class Transport implements Printable{
 
     @Override
     public void print() {
-
+        System.out.println("Name:"+getName()+" Type:"+getType());
     }
 }

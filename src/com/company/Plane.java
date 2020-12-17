@@ -31,8 +31,8 @@ public class Plane extends Transport {
 
 
     public void print() {
-        System.out.println("Name:"+ super.getName() + " Type:" + super.getType()
-                + " Passengers:" + getPassengers() + " Airplane speed:" + getPlaneSpeed());
+        super.print();
+        System.out.println(" Passengers:" + getPassengers() + " Airplane speed:" + getPlaneSpeed());
 
     }
 

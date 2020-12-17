@@ -16,7 +16,9 @@ public class Train extends Transport {
     }
 
     public void print() {
-        System.out.println("Name:"+getName() + " Type:" + getType() + " Train type:" + getTrainType());
+        super.print();
+        System.out.print("Train type:" + getTrainType());
+
 
     }
 }
