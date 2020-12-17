@@ -1,6 +1,6 @@
 package com.company;
 
-public class Ship extends Transport implements Printable {
+public class Ship extends Transport   {
 
     private String shipType;
 
@@ -15,7 +15,8 @@ public class Ship extends Transport implements Printable {
     }
 
     public void print() {
-        System.out.println(getName()+" "+getType()+" "+ getShipType());
+        System.out.println("Name:"+getName()+" Type:"+getType()+" Ship type:"+ getShipType());
+
     }
 
 }

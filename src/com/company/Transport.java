@@ -1,6 +1,6 @@
 package com.company;
 
-public class Transport {
+public class Transport implements Printable{
 
     private String name;
     private String type;
@@ -26,4 +26,8 @@ public class Transport {
         return type;
     }
 
+    @Override
+    public void print() {
+
+    }
 }
